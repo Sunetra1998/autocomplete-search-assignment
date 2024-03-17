@@ -1,0 +1,27 @@
+.BookCard {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.CardContainer {
+    background-color: lightgray;
+    height: 250px;
+    margin-right: 1rem;
+    width: 24%;
+    padding: 12px;
+    font-size: 12px;
+    overflow-y: auto;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.CardContainer:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

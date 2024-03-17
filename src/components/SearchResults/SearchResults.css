@@ -1,0 +1,22 @@
+.SearchResults {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.CardContainer{
+    background-color: lightgray;
+    height: 200px;
+    margin-right: 1rem;
+    padding: 8px;
+    font-size: 12px;
+    overflow-y: auto;
+    width:20%;
+    margin-bottom: 1.5rem;
+}
+.CardDetails{
+
+}
+
+
+
